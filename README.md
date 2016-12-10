@@ -1,1 +1,1 @@
-# clojurescript-reading-group
+# offcourse-reading-group
