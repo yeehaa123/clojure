@@ -1,4 +1,4 @@
-#+SETUPFILE: theme-bigblow.setup
+#+SETUPFILE: theme-bigblow-local.setup
 
 * Who are we?
 ** Offcourse
