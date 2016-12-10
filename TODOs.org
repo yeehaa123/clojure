@@ -43,6 +43,12 @@
    + Clojure       -> Java Virtual Machine 
    + ClojureScript -> V8 (or, very rarely, Rhino, Nashhorn, Chakra)
    + ClojureCLR    -> .net (hardly maintained or used...)
+** Vars                                                              :Clay:
+  + Indicated by the reserved word 'def'
+  + Global
+  + Can refer to both functions and values
+  + Can be mutable (^dynamic)
+  + [[http://stackoverflow.com/questions/11730828/clojure-and-dynamic][Discussion (Stack Overflow)]]
 ** Fractions                                                        :Emily:
 *** Finiteness and Infinity
 **** Finite State Machine
@@ -81,19 +87,13 @@
    | lists are always eagerly evaluated | sequences are often lazily evaluated |
    | only abstraction                   | underlying abstraction               |
    | single data structure              | multiple data structures             |
-** Datastructures                              
+** Persistent Datastructures
 *** Sets                                                              :Emily:
-   + [[http://clojure.org/reference/data_structures#Sets][Sets (Clojure Documentation)]]
-   + [[http://blog.jayfields.com/2012/09/replacing-common-code-with-clojureset.html][Fun with Sets]]
+    + [[http://clojure.org/reference/data_structures#Sets][Sets (Clojure Documentation)]]
+    + [[http://blog.jayfields.com/2012/09/replacing-common-code-with-clojureset.html][Fun with Sets]]
 *** Tries                                                             :Amar:
 **** [[https://en.wikipedia.org/wiki/Trie][Tries (wikipedia)]]
 **** [[https://www.youtube.com/watch?v=SiFwRtCnxv4][David Nolan on Tries]]
-*** Vars                                                              :Clay:
-    + Indicated by the reserved word 'def'
-    + Global
-    + Can refer to both functions and values
-    + Can be mutable (^dynamic)
-    + [[http://stackoverflow.com/questions/11730828/clojure-and-dynamic][Discussion (Stack Overflow)]]
 *** Transients
     + [[http://hypirion.com/musings/understanding-clojure-transients][Understanding Transients]]
     + [[http://clojure.org/reference/transients][Official Documentation (Clojure)]]
