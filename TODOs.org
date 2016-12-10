@@ -1,0 +1,71 @@
+* Who are we?
+** Offcourse
+*** Mission: Democratize Education
+*** Online Platform 
+*** Offline Courses and Meetings
+* Who are you?
+** Introductions
+* Guidelines
+** Stay a beginner 
+** Not knowing is not less valuable than knowing
+** Own and even embrace your mistakes
+** Avoid or explain jargon
+** Don't interrupt each other
+** Recapitulate before moving on to your own question
+** Be Nice
+* Clojure(Script)
+** Parasitic Languages
+*** Other examples: Scala, Elm, Elixir
+*** Clojure and Clojurescript
+**** DIfference by host VM
+**** Clojure -> Java Virtual Machine 
+**** ClojureScript -> V8 (or, very rarely, Rhino, Nashhorn, Chakra) 
+** Scalars
+*** Fractions                                                        :Emily:
+**** [[http://stackoverflow.com/questions/1596484/when-i-divide-numbers-in-clojure-i-get-a-fraction-how-do-i-get-the-decimal][Discussion (Stack Overflow)]]
+**** Finiteness and Infinite
+***** Finite State Machine
+****** Computers can only solve problems that are (theoretically) finite
+***** Rational Numbers 
+****** All Integers and Fractions
+****** 1/3
+****** Countable
+****** Finite
+***** Irrational Numbers (infinite)
+****** All the numbers on the continuous line from -infinity to infinity that cannot be expressed a integers or fractions
+****** 0.33333333333
+****** Uncountable
+****** Infinite
+***** Rounding Errors
+****** Banking
+******* [[http://www.xbeat.net/vbspeed/i_BankersRounding.htm][Banker's Rounding]]
+****** Gambling
+******* [[https://en.wikipedia.org/wiki/Mathematics_of_bookmaking][Mathematics of Bookmaking (Wikipedia)]]
+****** Music 
+******* Harmony
+******** [[https://www.youtube.com/watch?v=bhkdyCPYgLs][Rich Hickey on Harmonikit]]
+******** [[http://www.aboutscotland.co.uk/harmony/prop.html][Pythagoras]]
+******** [[https://www.youtube.com/watch?v=Mfsnlbd-4xQ][Functional Composition (Chris Ford)]]
+******* Noise
+******** [[http://www.inf.fu-berlin.de/lehre/WS01/19548-U/shannon.html][Shannon's Theorem]]
+******** [[https://en.wikipedia.org/wiki/Comparison_of_analog_and_digital_recording#Digital_errors][Digital Errors (Wikipedia)]]
+******** [[https://monoskop.org/images/7/73/Kittler_Friedrich_Gramophone_Film_Typewriter.pdf][Friedrich Kittler, Grammophone, Film, Typewriter]]
+**** Performance Implications
+***** [[https://github.com/clojure-cookbook/clojure-cookbook/blob/master/01_primitive-data/1-14_working-with-rational-numbers.asciidoc][Working with Rational Numbers]]
+** Lists
+*** Clojure versus Lisps
+**** Lisp: Only Datastructure
+** Sequences
+*** Temporality
+*** Music
+** (Im)mutability
+*** Vars                                                               :Clay:
+***** Indicated by the reserved word 'def'
+***** Can refer to both functions and values
+***** Are mutable!!!
+*** Persistent Datastructures
+**** Tries                                                             :Amar:
+***** [[https://en.wikipedia.org/wiki/Trie][Tries (wikipedia)]]
+***** [[https://www.youtube.com/watch?v=SiFwRtCnxv4][David Nolan on Tries]]
+*** Transients
+      
